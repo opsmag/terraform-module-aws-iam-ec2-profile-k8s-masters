@@ -4,7 +4,7 @@ variable "description" {
   default     = "EC2 role to discribe"
 }
 
-variable "project_name" {
-  description = "Project name"
+variable "cluster_name" {
+  description = "Cluster name"
   type        = string
 }
